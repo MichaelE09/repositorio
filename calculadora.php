@@ -19,6 +19,22 @@
 <input type ="submit" value="submeter" />
 <br/> <br/>
 
-</form>
+</form>  
+<?php 
+
+ $a = $_GET "num1";
+        $b = $_GET "num2";
+        $op =$_GET "operacao";
+        $c = []
+        if($op == "soma")
+            $c = $a + $b;
+            //echo $c = "resultado";
+        else if($op == "subtracao")
+            $c = $a - $b;
+            //echo $c = "resultado";
+
+?>
+
+
 </body>
 </html>
