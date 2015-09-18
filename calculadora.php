@@ -31,7 +31,7 @@
             //echo $c = "resultado";
         else if($op == "subtracao")
             $c = $a - $b;
-            //echo $c = "resultado";
+            
 
 ?>
 
