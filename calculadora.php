@@ -24,9 +24,17 @@
 
  $a = $_GET "num1";
         $b = $_GET "num2";
-$c = $a - $b;
+        $op =$_GET "operacao";
+        $c = []
+        if($op == "soma")
+            $c = $a + $b;
+            //echo $c = "resultado";
+        else if($op == "subtracao")
+            $c = $a - $b;
+            
 
 ?>
+
 
 </body>
 </html>
